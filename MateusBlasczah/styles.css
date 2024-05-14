@@ -1,0 +1,100 @@
+body {
+  background-color: #f0f0f0; /* Cor de fundo da tela */
+  margin: 0; /* Remove a margem padrão do body */
+  padding: 0; /* Remove o preenchimento padrão do body */
+  min-height: 100vh; /* Define a altura mínima como 100% da altura da janela de visualização */
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  flex: 1;
+  flex-direction: row; /* Altera a direção do flexbox para coluna */
+  align-items: baseline;
+  margin-left: 10px;
+  justify-content: space-between;
+  background-color: #2c373c;
+  padding: 0px;
+  font-size: 1em;
+}
+
+#me {
+  margin-top: -20px;
+  margin-bottom: -20px;
+  margin: 0px;
+  font-size: 0.8em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+#me p {
+  font-family: "Jersey 25 Charted", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1em;
+}
+
+header h1 {
+  margin-bottom: 0px;
+  margin: -20;
+}
+header p {
+  font-size: 0.8em;
+  margin-top: 0;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  float: right;
+  margin-left: auto;
+  margin-right: -50px;
+  margin-bottom: 0;
+  font-family: "Oswald", sans-serif;
+  font-weight: 350;
+  font-style: italic;
+}
+
+a {
+  color: black; /* Define a cor do texto dos links como preto */
+  text-decoration: none; /* Remove o sublinhado padrão */
+  margin-right: 100px; /* Adiciona margem à direita de cada link */
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main img {
+  border-radius: 50%;
+  width: 250px;
+}
+
+.briefMe {
+  width: 800px;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 350;
+  font-style: italic;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.5em;
+}
+
+.contacts {
+  width: 800px;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 350;
+  font-style: italic;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.5em;
+}
