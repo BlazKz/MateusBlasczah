@@ -32,30 +32,30 @@
         <a href="contact.html">Contato</a>
       </div>
     </header>
-    <main class="experience">
-      <!-- Minhas experiências em trabalho, certificações e educação -->
-      <div class="trabalho">
-        <h1>Trabalho</h1>
-        <h3>Silicon Village</h3>
-        <p>Desenvolvedor Back-end trainee, com inicio em dezembro de 2023.</p>
-        <h3>Smokkin Hookah</h3>
-        <p>Sócio-fundador, desde 2019.</p>
-      </div>
-      <div class="certificados">
-        <h1>Certificados</h1>
-        <h3>AWS Certified Cloud Practitioner</h3>
-        <a
-          href="https://www.credly.com/badges/ead8fd58-0d89-4f79-8df3-5711f4497488/linked_in_profile"
-          >Exibir credencial</a
-        >
-        <h3>Alura</h3>
-        <p>Certificação Dev-Ops</p>
-        <p>Certificação Java</p>
-      </div>
-      <div class="educacao">
-        <h1>Educação</h1>
-        <h3>Analise e Desenvolvimento de Sistemas | UNINTER</h3>
-        <p>09/2022 - 12/2024</p>
+    <main>
+      <!-- formulario para contato -->
+      <div class="mailTo">
+        <h2>Entre em contato comigo</h2>
+        <form action="#" method="POST">
+          <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Mensagem:</label>
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              rows="4"
+              required
+            ></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
       </div>
     </main>
   </body>
